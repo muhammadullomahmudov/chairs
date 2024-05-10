@@ -1,0 +1,89 @@
+.list {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.list__item {
+    list-style: none;
+    padding: 50px 30px;
+    background-color: #E7E7DF;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+
+
+
+    &:hover {
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    }
+}
+.item__link {
+    text-decoration: none;
+    color: #000;
+}
+.item__img {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+.item__name {
+    text-align: center;
+}
+.item__price {
+    color: #6D6A63;
+    text-align: center;
+}
+
+
+                    /* 2html */
+
+.chair-list {
+    display: flex;
+}
+.chair-list__title {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+    color: #000;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box__img {
+}
+.box__title {
+}
+.box__price {
+    font-size: 20px;
+}
+.btn-box {
+}
+.btn1 {
+    padding: 20px;
+    border-radius: 20px;
+    border-color: transparent;
+}
+.btn2 {
+    margin-left: 20px;
+    background-color: #2F2F2F;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px 50px;
+}
+.box__about {
+}
+.canel {
+    display: inline-block;
+    margin-top: 5px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #E7E7DF;
+
+
+    &:hover {
+        background-color: aqua;
+        color: #fff;
+    }
+}
