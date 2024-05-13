@@ -80,10 +80,11 @@
     text-decoration: none;
     padding: 10px 20px;
     background-color: #E7E7DF;
-
+    font-family: sans-serif;
 
     &:hover {
         background-color: aqua;
         color: #fff;
+
     }
 }

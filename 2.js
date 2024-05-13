@@ -3,7 +3,7 @@ const elBody = document.querySelector("body");
 function render() {
     const product = chairs.find((el) => el.id == itemId)
 
-    elBody.innerHTML = `    <a href="./index.html" class="canel">Canel</a>
+    elBody.innerHTML = `    <a href="./index.html" class="canel">Cancel</a>
 <h2  class="chair-list__title">PRODUCT DETAIL</h2>
 <ul class="chair-list">
 
