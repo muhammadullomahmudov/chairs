@@ -1,12 +1,5 @@
 const elList = document.querySelector('.list')
 
-
-// function renderList(el) {
-//    el.forEach ((chairs) => (i) {
-
-//     })
-// }
-
 function renderList(array) {
     elList.innerHTML = ''
     chairs.forEach((el) => {
